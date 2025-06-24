@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap');
+
+* {
+  box-sizing: border-box !important;
+  outline: unset !important;
+  box-shadow: unset !important;
+  text-shadow: none !important;
+  font-family: "Inconsolata", monospace;
+}
+option, select {
+  text-transform: capitalize;
+}
+.toCenterForm {
+  min-height: 100px !important;
+  width: fit-content !important;
+  left: 50%;
+  translate: -50%;
+  position: relative;
+}
+.btn {
+  text-transform: capitalize !important;
+}
+img {
+  object-fit: fill;
+}
+td {
+  max-width: 200px !important;
+}
+table td.description, table td.name {
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+}
+.brndLogo {
+  object-fit: contain;
+  aspect-ratio: 3 / 1 !important;
+}
+.warningMessage {
+  border-radius: 70px 15% !important;
+  text-transform: capitalize !important;
+  width: fit-content !important;
+}
+label {
+  text-transform: capitalize !important;
+}
+a.Centerbutton {
+  width: fit-content !important;
+  margin: auto !important;
+}
+img.card-img-top {
+  max-height: 70px !important;
+}
+td a {
+  display: flex !important;
+  justify-content: center;
+}
+.progress {
+  height: 5px !important;
+}
